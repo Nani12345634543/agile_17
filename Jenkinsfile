@@ -5,7 +5,7 @@ pipeline {
         stages {
             stage('Checkout') {
                 steps {
-                git branch: 'main', url: 'https://github.com/<student-username>/<repo-name>.git'
+                git branch: 'main', url: 'https://github.com/Nani12345634543/agile_17.git'
                 }
             }
             stage('Show Parameter') {
